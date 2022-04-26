@@ -1,0 +1,36 @@
+# Orca
+A reconfigurable dataflow accelerator to accelerate the dynamic task flow.
+
+# Arch
+
+
+
+# Description
+
+There is a top level controller to control the all system.
+
+There are several tasks type which can be mainly classified as dynamically or statically.
+These two type can be regarded as the number of job will be created by the parent tasks.
+
+There are several tasks type which can be mainly classified as the following types.
+- unicast type
+- sub unicast type
+- 1-D multicast type
+- multicast type
+
+
+- Dynamically
+   - Data Dependence Task
+   - If-else based Task
+   - Parallelisable Task
+- Statically
+   - Root Task
+      - The task which is the first task to be executed
+   - Sharable Task
+
+
+
+
+
+
+
